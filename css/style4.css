@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding: 0 0 10px 0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    height: 78px;
+}
+
+h1{
+    color:#bf3B40;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-family: 'saira-extracondensed', sans-serif;
+}
+
+h2{
+    color: #080ED9;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    margin:0;
+}
+
+.search{
+    width: 95px;
+    height: 15px;
+    font-size: 12px;
+}
+a.connect{
+    height: 21px; /*pour aligner et connexion en bas avec les autres sans les mettre dans une div*/
+}
+img.pn{
+    width: 19px;
+    height: 21px;
+}/*pour reduire la taille de l'image*/
+
+
+.catalogue{
+
+    display: grid;
+    grid: 1fr 1fr 1fr/1fr 1fr 1fr;
+    margin-left: 25px;
+    height: 500px;
+
+}
+
+.images{
+    height: 135px;
+    width: 93px;
+}
+
+hr{
+    width: 80%;
+}
+
+p.titre{
+    font-family: 'saira-extracondensed', sans-serif;
+    font-weight: 700px;
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+}
+
+footer{
+    font-family: 'saira-extracondensed', sans-serif;
+    font-weight: 400px;
+    height: 200px;
+}
+.av{
+    text-align: center;
+    font-size: 15px;
+}
+
+p.av{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+
+.grid{
+    display: grid;
+    grid: 1fr 1fr/1fr 1fr;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.d1,.d2,.d3,.d4{
+    padding:0 25px;
+}
+
+img.bas{
+    width: 23px;
+    height: auto;
+}
+
+.footer-last{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+p.footer-last{
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+div.rezo{
+    text-align: center;
+}

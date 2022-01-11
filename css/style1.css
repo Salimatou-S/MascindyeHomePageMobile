@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding: 0 0 10px 0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    height: 78px;
+}
+
+h1{
+    color:#bf3B40;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-family: 'saira-extracondensed', sans-serif;
+}
+
+h2{
+    color: #080ED9;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    margin:0;
+}
+
+.search{
+    width: 95px;
+    height: 15px;
+    font-size: 12px;
+}
+a.connect{
+    height: 21px; /*pour aligner et connexion en bas avec les autres sans les mettre dans une div*/
+}
+img.pn{
+    width: 19px;
+    height: 21px;
+}/*pour reduire la taille de l'image*/
+
+.banner{
+    background-image: url("../images/photo_2.png");
+    background-size: cover;
+    height: 514px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text{
+    font-family: 'saira-extracondensed', sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+    border: 1px solid;
+    background-color: #EEEEEE;
+    color:black;
+    padding: 8px 8px;
+}
+
+a.text{
+    text-decoration: none;
+}
+
+.defil{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 23px;
+}
+
+footer{
+    font-family: 'saira-extracondensed', sans-serif;
+    font-weight: 400px;
+    height: 200px;
+}
+.av{
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.grid{
+    display: grid;
+    grid: 1fr 1fr/1fr 1fr;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.d1,.d2,.d3,.d4{
+    padding:0 25px;
+}
+
+.bas{
+    width: 23px;
+    height: auto;
+}
+
+.footer-last{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rezo{
+    text-align: center;
+}
+
+i{
+    margin:0 10px 0 10px;
+}

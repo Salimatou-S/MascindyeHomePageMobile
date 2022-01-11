@@ -1,0 +1,133 @@
+body{
+    width: 375px;
+    height: 812px;   
+    margin-left: 5px;
+    margin-top: 0;
+    border: 1px solid;
+}
+
+header{
+    background-color: black;
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    height: 78px;
+}
+
+h1{
+    color:#bf3B40;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'saira-extracondensed', sans-serif;
+}
+
+h2{
+    color: #080ED9;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Sofia', cursive;
+    margin:0;
+}
+
+.boutique{
+    height: 34px;
+    text-align: center;
+}
+
+.search{
+    width: 95px;
+    height: 15px;
+    font-size: 12px;
+}
+
+.connect{
+    margin-bottom: 5px;
+}
+
+img.pn{
+    width: 19px;
+    height: 21px;
+}
+
+div.catalogue{
+    height: 500px;
+}
+
+.catalogue{
+    display: grid;
+    grid: 1fr 1fr 1fr/1fr 1fr 1fr;
+    margin-left: 25px;
+
+}
+
+.images{
+    height: 135px;
+    width: 100px;
+}
+
+hr{
+    width: 300px;
+}
+
+p.titre{
+    font-family: 'saira-extracondensed', sans-serif;
+    font-weight: 700px;
+    font-size: 15px;
+    text-align: center;
+    margin: 3px;
+}
+
+footer{
+    font-family: 'saira-extracondensed', sans-serif;
+    font-weight: 400px;
+    height: 200px;
+}
+.av{
+    text-align: center;
+    font-size: 15px;
+}
+
+p.av{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+
+.grid{
+    display: grid;
+    grid: 1fr 1fr/1fr 1fr;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.d1,.d2,.d3,.d4{
+    padding:0 25px;
+}
+
+img.bas{
+    width: 23px;
+    height: auto;
+}
+
+.footer-last{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+p.footer-last{
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+div.rezo{
+    text-align: center;
+}
